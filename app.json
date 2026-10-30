@@ -1,0 +1,84 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-30T16:37:51.001Z",
+  "item": {
+    "title": "Redlands Parcel Explorer",
+    "subtitle": "Search and inspect parcel records"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "analysis",
+    "showHeader": false,
+    "theme": {
+      "mode": "light",
+      "accent": "coral"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "parcel-legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "parcel-layers",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "redlands-map-floating-controls",
+        "label": "Parcel lookup and details with a single card-owned highlight",
+        "bundlePath": "./runtime/behaviors/redlands-map-floating-controls-e89dcef0922f7434.js",
+        "sourceSha256": "e89dcef0922f7434407ba237728c976cc836d16a527407eb9dab64986f90cd0c",
+        "modulePaths": [],
+        "config": {
+          "layerId": "19f38691671-layer-2"
+        },
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-10-30T20:00:53.983Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "e9166706-a79d-4e77-8fde-b6eb4da597a2",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-a362746f-4cc6-42ae-9388-6c9349d89b0e",
+      "mapName": "Redlands Parcels Web Map",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-30T16:38:25.585Z",
+      "sourceItem": {
+        "itemId": "acb84f3596dd4de6aabe63af4f3babb7",
+        "portalUrl": "https://www.arcgis.com"
+      }
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": [],
+    "notes": [
+      "Opened from portal item acb84f3596dd4de6aabe63af4f3babb7 at https://www.arcgis.com/sharing/rest."
+    ]
+  }
+}
