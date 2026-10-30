@@ -43,17 +43,19 @@
     "behaviors": [
       {
         "id": "redlands-map-floating-controls",
-        "label": "Parcel lookup and details with a single card-owned highlight",
-        "bundlePath": "./runtime/behaviors/redlands-map-floating-controls-e89dcef0922f7434.js",
-        "sourceSha256": "e89dcef0922f7434407ba237728c976cc836d16a527407eb9dab64986f90cd0c",
-        "modulePaths": [],
+        "label": "Parcel lookup with animated cards and crisp highlight",
+        "bundlePath": "./runtime/behaviors/redlands-map-floating-controls-750bb43ea8829736.js",
+        "sourceSha256": "750bb43ea8829736558eddfe0a13cf0716df323529eef96c4d80e1cddb7efbdb",
+        "modulePaths": [
+          "esri/views/support/HighlightOptions"
+        ],
         "config": {
           "layerId": "19f38691671-layer-2"
         },
         "mounts": [],
         "ownedLayerIds": [],
         "interactions": [],
-        "installedAt": "2026-10-30T20:00:53.983Z"
+        "installedAt": "2026-10-30T21:23:59.818Z"
       }
     ]
   },
